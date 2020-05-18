@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "Vmeste2",
-=======
   "name": "Vmeste",
->>>>>>> parent of 325ab1c0... Updates
   "version": "1.0.0",
   "description": "",
   "homepage": "https://celtlec.github.io/18/",
@@ -12,7 +8,7 @@
     "start": "cross-env PORT=10888 HTTPS=true react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "keywords": [],
   "author": "",
@@ -24,11 +20,7 @@
   },
   "dependencies": {
     "@vkontakte/icons": "^1.18.2",
-<<<<<<< HEAD
-    "@vkontakte/vk-bridge": "^2.2.2",
-=======
     "@vkontakte/vk-bridge": "^2.2.1",
->>>>>>> parent of 325ab1c0... Updates
     "@vkontakte/vk-miniapps-deploy": "0.0.17",
     "@vkontakte/vkui": "^3.5.0",
     "babel-eslint": "^10.1.0",
@@ -40,8 +32,6 @@
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
-<<<<<<< HEAD
-=======
   },
   "browserslist": {
     "production": [
@@ -54,6 +44,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
->>>>>>> parent of 325ab1c0... Updates
   }
 }
+
