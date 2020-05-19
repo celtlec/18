@@ -24,12 +24,7 @@ const Home = ({ id, go, fetchedUser }) => (
 		<Group title="Navigation Example">
 			<Div>
 				<Button size="xl" level="2" onClick={go} data-to="persik">
-					Show me the Per הה
-				</Button>
-			</Div>
-			<Div>
-				<Button size="x2" level="1" onClick={go} data-to="persik">
-					Show me the rrr
+					Map נננ
 				</Button>
 			</Div>
 		</Group>
