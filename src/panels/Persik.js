@@ -26,10 +26,10 @@ const Persik = props => (
 		>
 			Notifications
 		</PanelHeader>
-	      <SimpleCell before={<Avatar size={48} src={second} />} description="Added a voice message to 'Starbucks'">Liza Smirnova</SimpleCell>
-              <SimpleCell before={<Avatar size={48} src={first} />} description="Added a photo to 'Craft Brothers'">Igor Lykov</SimpleCell>
-              <SimpleCell before={<Avatar size={48} src={persik} />} description="New post was added">Chocolate</SimpleCell>
-              <SimpleCell before={<Avatar size={48} src={third} />} description="Commented on your post">Nikita Shilov</SimpleCell>
+	      <SimpleCell before={<Avatar size={48} src={second} />} description="Добавила голосовую запись к месту Starbucks">Лиза Смирнова</SimpleCell>
+          <SimpleCell before={<Avatar size={48} src={first} />} description="Добавил фотографию к месту Craft Brothers">Игорь Лыков</SimpleCell>
+          <SimpleCell before={<Avatar size={48} src={persik} />} description="К месту добавлена новая запись">Шоколад</SimpleCell>
+          <SimpleCell before={<Avatar size={48} src={third} />} description="Прокомментировал вашу запись">Никита Шилов</SimpleCell>
 	</Panel>
 );
 
