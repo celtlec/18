@@ -24,12 +24,12 @@ const Persik = props => (
 				{osName === IOS ? <Icon28ChevronBack/> : <Icon24Back/>}
 			</PanelHeaderButton>}
 		>
-			Persik
+			Notifications
 		</PanelHeader>
 	      <SimpleCell before={<Avatar size={48} src={second} />} description="Added a voice message to 'Starbucks'">Liza Smirnova</SimpleCell>
               <SimpleCell before={<Avatar size={48} src={first} />} description="Added a photo to 'Craft Brothers'">Igor Lykov</SimpleCell>
               <SimpleCell before={<Avatar size={48} src={persik} />} description="New post was added">Chocolate</SimpleCell>
-              <SimpleCell before={<Avatar size={48} src={third} />} description="Commented on your post'">Nikita Shilov</SimpleCell>
+              <SimpleCell before={<Avatar size={48} src={third} />} description="Commented on your post">Nikita Shilov</SimpleCell>
 	</Panel>
 );
 
