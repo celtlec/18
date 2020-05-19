@@ -13,11 +13,14 @@ import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
 
 import persik from '../img/persik.png';
 import './Persik.css';
-///import eee from '../img/eee.jpeg';
+import first from '../img/first.png';
+import second from '../img/second.png';
+import third from '../img/third.png';
 
 const osName = platform();
 
 const Persik = props => (
+     <meta charset="utf-8">
 	<Panel id={props.id}>
 		<PanelHeader
 			left={<PanelHeaderButton onClick={props.go} data-to="home">
@@ -26,9 +29,11 @@ const Persik = props => (
 		>
 			Comments
 		</PanelHeader>
-              <SimpleCell before={<Avatar size={48} src={persik} />} description="11112">Name</SimpleCell>
-              <SimpleCell before={<Avatar size={48} src={persik} />} description="vvvvv">Name2</SimpleCell>
+              <SimpleCell before={<Avatar size={48} src={second} />} description="Добавила голосовую запись к месту Starbucks">Лиза Смирнова</SimpleCell>
+              <SimpleCell before={<Avatar size={48} src={first} />} description="Добавил фотографию к месту Craft Brothers">Игрь Лыков</SimpleCell>
+              <SimpleCell before={<Avatar size={48} src={persik} />} description="К месту добавлена новая запись (x)">Шоколад</SimpleCell>
 	</Panel>
+</meta>
 );
 
 Persik.propTypes = {
